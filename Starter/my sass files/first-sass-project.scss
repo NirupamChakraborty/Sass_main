@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+$main-color: #77a8f2;
+// we will make a variable for what we use regularly
+$bg-image-center:no-repeat center/cover;
+
+$main-font: "Dancing Script", cursive;
+
+body{
+    background: linear-gradient(#a5aae9cc, #8c9af6);
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: $main-font;
+    
+
+}
+
+.card{
+    background: $main-color;
+    max-width: 280px;
+    padding: 25px;
+    line-height: 27px;
+    margin: 4rem;
+    position: relative;
+    box-shadow: 10px 10px 27px white;
+
+}
+
+
+.img{
+   width: 70px;
+   height: 70px;
+   border-radius: 100%;
+   border: 5px solid white;
+   position: absolute;
+   right: -30px;
+   bottom: 250px;
+
+}
+
+
+.img-one{
+    background: url(one.jpg)$bg-image-center;
+    //  background-repeat: no-repeat;
+    // background-position:center ;
+    // background-size: cover;
+}
+
+// .img-one{
+    // background: url(one.jpg);
+    // background-repeat: no-repeat;
+    // background-position:center ;
+    // background-size: cover;
+// }
+
+.img-two{
+    background: url(two.jpg)$bg-image-center;
+    //  background-repeat: no-repeat;
+    // background-position:center ;
+    // background-size: cover;
+}
+
+.img-three{
+    background: url(three.jpg)$bg-image-center;
+    // background-repeat: no-repeat;
+    // background-position:center ;
+    // background-size: cover;
+}
+
+.img-four{
+    background: url(four.jpg)$bg-image-center;
+    // background-repeat: no-repeat;
+    // background-position:center ;
+    // background-size: cover;
+}

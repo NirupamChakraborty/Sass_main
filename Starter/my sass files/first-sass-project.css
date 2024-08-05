@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap");
+body {
+  background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.card {
+  background: #77a8f2;
+  max-width: 280px;
+  padding: 25px;
+  line-height: 27px;
+  margin: 4rem;
+  position: relative;
+  box-shadow: 10px 10px 27px white;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  right: -30px;
+  bottom: 250px;
+}
+
+.img-one {
+  background: url(one.jpg) no-repeat center/cover;
+}
+
+.img-two {
+  background: url(two.jpg) no-repeat center/cover;
+}
+
+.img-three {
+  background: url(three.jpg) no-repeat center/cover;
+}
+
+.img-four {
+  background: url(four.jpg) no-repeat center/cover;
+}/*# sourceMappingURL=first-sass-project.css.map */
