@@ -1,0 +1,22 @@
+@import "compomnents/resets";
+// header{
+//     height: 50vh;
+//     background: crimson;
+// }
+
+@import "compomnents/header";
+section{
+    height: 50vh;
+    background: teal;
+}
+
+article{
+    height: 50vh;
+    background: green;
+
+}
+
+footer{
+    height: 500vh;
+    background: blue;
+}

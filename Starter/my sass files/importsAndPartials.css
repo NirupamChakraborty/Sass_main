@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50vh;
+  background: crimson;
+}
+
+section {
+  height: 50vh;
+  background: teal;
+}
+
+article {
+  height: 50vh;
+  background: green;
+}
+
+footer {
+  height: 500vh;
+  background: blue;
+}/*# sourceMappingURL=importsAndPartials.css.map */
