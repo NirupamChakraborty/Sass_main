@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+nav .logo-container {
+  margin-left: 40px;
+}
+nav ul {
+  margin-right: 40px;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}/*# sourceMappingURL=third_project.css.map */
