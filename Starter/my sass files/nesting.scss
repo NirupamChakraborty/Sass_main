@@ -1,0 +1,31 @@
+header{
+    height: 50vh;
+    background: crimson;
+
+
+    nav{
+        border: 5px solid teal;
+        
+
+
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+    }
+
+
+}
+
+li{
+    color: green;
+    
+
+    a{
+        display: flex;
+    }
+}

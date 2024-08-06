@@ -1,0 +1,19 @@
+header {
+  height: 50vh;
+  background: crimson;
+}
+header nav {
+  border: 5px solid teal;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  color: green;
+}
+li a {
+  display: flex;
+}/*# sourceMappingURL=nesting.css.map */
