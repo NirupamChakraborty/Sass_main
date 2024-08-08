@@ -4,53 +4,11 @@
     box-sizing: border-box;
 }
 
-// navigation
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    font-family: sans-serif;
-    position: fixed;
-    width: 100%;
-    background: white;
+@import "3Project/nav.scss";
+@import "3Project/header.scss";
+@import "3Project/card.scss";
+@import "3Project/gallery.scss";
+@import "3Project/footer.scss";
 
 
-
-   
-.logo-container{
-    margin-left: 40px;
-
-} 
-
-ul{
-    margin-right: 40px;
-
-
-    li{
-        display: inline ;
-        list-style: none;
-        margin-left: 30px;
-
-
-        a{
-            text-decoration: none;
-            color: black;
-        }
-    } 
-}
-
-}
-
-//  Header area
-main{
-    // background: url("https://images.unsplash.com/photo-1603574670812-d24560880210?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80");
-   background: url("https://images.unsplash.com/photo-1603574670812-d24560880210?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80");
-    // 
-    background-position: center ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500vh;
-}
 

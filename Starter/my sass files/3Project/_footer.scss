@@ -1,0 +1,44 @@
+// footer
+
+footer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        text-align: center;
+        font-family: serif;
+        margin-bottom: 5rem;
+        font-size: 3rem;
+        margin-top: -500px;
+        margin-right: -500px;
+
+    }
+
+
+    input{
+        padding: 10px 20px;
+        margin-bottom: 37px;
+    }
+
+
+    textarea{
+        padding: 37px;
+        width: 420px;
+        height: 200px;
+        margin-bottom: 37px;
+
+
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
+        background:black;
+        padding: 10px 20px;
+        font-family: sans-serif;
+    }
+
+}
