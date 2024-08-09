@@ -1,0 +1,17 @@
+.learn {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dn-btn {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: teal;
+  font-family: serif;
+}/*# sourceMappingURL=mixins.css.map */

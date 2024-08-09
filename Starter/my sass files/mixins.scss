@@ -1,0 +1,17 @@
+@mixin button-styles{
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.learn{
+    @include button-styles;
+}
+
+.dn-btn{
+    @include button-styles;
+    background-color: teal;
+    font-family: serif;
+}
