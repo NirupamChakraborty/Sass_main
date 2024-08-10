@@ -5,6 +5,8 @@
 
 }
 
+
+
 .flex-center{
     display: flex;
     flex-direction: column;
@@ -50,6 +52,8 @@ header{
             padding: 27px;
             margin: 20px ;
             font-family: sans-serif;
+            box-shadow: 10px 10px 10px grey;
+            
             
         
 
@@ -60,6 +64,7 @@ header{
             width: 100%;
             height: 200px;
             margin-bottom: 20px ;
+            box-shadow: 10px 10px 10px grey;
 
         }
 
