@@ -1,0 +1,17 @@
+.btn, .black-btn, .download-btn {
+  background: transparent;
+  border: none;
+  background: crimson;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: green;
+}
+
+.black-btn {
+  color: white;
+  background-color: black;
+}/*# sourceMappingURL=extends.css.map */

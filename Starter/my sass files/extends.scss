@@ -1,0 +1,24 @@
+.btn{
+    background: transparent;
+    border: none;
+
+
+    // Styling
+background: crimson;
+padding: 10px 20px ;
+color: white;
+cursor: pointer;
+
+
+}
+
+.download-btn{
+    @extend .btn;
+    background-color: green;
+}
+
+.black-btn{
+    @extend .btn;
+    color: white;
+    background-color: black;
+}
