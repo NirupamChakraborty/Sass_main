@@ -16,11 +16,23 @@
 
  // STRING FUNCTION 
 
- .selector{
-font-family: quote(roboto);
-font-family: unquote("arial");
-font-family: to-upper-case(sonu );
-font-family: str-length($string: "sonu") ;
-font-family: str-index("sonu", n);
-font-family: str-insert("sonu", n, 4 );
- }
+//  .selector{
+// font-family: quote(roboto);
+// font-family: unquote("arial");
+// font-family: to-upper-case(sonu );
+// font-family: str-length($string: "sonu") ;
+// font-family: str-index("sonu", n);
+// font-family: str-insert("sonu", n, 4 );
+//  }
+
+// COLOR FUNCTIONS
+
+
+$initial-color: blue;
+.container{
+    width: 600px ;
+    height: 100px;
+    // background: lighten($initial-color, 40);
+    background: saturate($initial-color, 40);
+    background: mix($initial-color, green, 47);
+}
