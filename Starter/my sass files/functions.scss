@@ -28,24 +28,51 @@
 // COLOR FUNCTIONS
 
 
-$initial-color: blue;
-.container{
-    width: 600px ;
-    height: 100px;
-    // background: lighten($initial-color, 40);
-    background: saturate($initial-color, 40);
-    background: mix($initial-color, green, 47);
-}
+// $initial-color: blue;
+// .container{
+//     width: 600px ;
+//     height: 100px;
+//     // background: lighten($initial-color, 40);
+//     background: saturate($initial-color, 40);
+//     background: mix($initial-color, green, 47);
+// }
 
 
 
 
-// ....................
-$list: 37px 38px 46px 48px;
+// // ....................
 
-.selector{
-    padding: length($list);
-    padding: nth($list,3);
-    padding: set-nth($list,3,47px);
-    padding: join((10px, 20px, 30px),(40px, 50px, 60px));
-}
+
+// // LISTS IN SASS
+
+// // $list: 37px 38px 46px 48px;
+
+// // .selector{
+// //     padding: length($list);
+// //     padding: nth($list,3);
+// //     padding: set-nth($list,3,47px);
+// //     padding: join((10px, 20px, 30px),(40px, 50px, 60px));
+// // }
+
+
+
+// // .........................
+
+// // MAPS IN SASS 
+
+
+// $font-weights:(
+//     "regular": 400,
+//     "medium": 500,
+//     "bold": 700
+// );
+
+// .selector{
+//     font-weight: map-get($font-weights , "medium" );
+//     font-weight: map-keys($font-weights);
+//     font-weight: map-values($font-weights);
+//     font-weight: map-has-key($font-weights , "medium" );
+// }
+
+
+// CUSTOM FUNCTIONS IN SASS
