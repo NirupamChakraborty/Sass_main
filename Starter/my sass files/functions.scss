@@ -1,0 +1,26 @@
+// .selector{
+
+//     // MATH FUNCTIONS
+
+//     padding: max(10px, 50px, 20px, 60px, 2px);
+//     padding: min(10px, 50px, 20px, 60px, 2px);
+//     padding: random();
+    
+//     padding: unit(10rem);
+//     padding: unitless(100rem);
+
+   
+
+// } 
+
+
+ // STRING FUNCTION 
+
+ .selector{
+font-family: quote(roboto);
+font-family: unquote("arial");
+font-family: to-upper-case(sonu );
+font-family: str-length($string: "sonu") ;
+font-family: str-index("sonu", n);
+font-family: str-insert("sonu", n, 4 );
+ }
