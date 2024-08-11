@@ -36,3 +36,16 @@ $initial-color: blue;
     background: saturate($initial-color, 40);
     background: mix($initial-color, green, 47);
 }
+
+
+
+
+// ....................
+$list: 37px 38px 46px 48px;
+
+.selector{
+    padding: length($list);
+    padding: nth($list,3);
+    padding: set-nth($list,3,47px);
+    padding: join((10px, 20px, 30px),(40px, 50px, 60px));
+}

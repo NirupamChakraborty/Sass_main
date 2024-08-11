@@ -3,4 +3,11 @@
   height: 100px;
   background: blue;
   background: #004478;
+}
+
+.selector {
+  padding: 4;
+  padding: 46px;
+  padding: 37px 38px 47px 48px;
+  padding: 10px, 20px, 30px, 40px, 50px, 60px;
 }/*# sourceMappingURL=functions.css.map */
