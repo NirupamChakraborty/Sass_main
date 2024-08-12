@@ -1,1 +1,19 @@
-/*# sourceMappingURL=interpolation.css.map */
+li {
+  width: 100px;
+  height: 100px;
+  list-style-type: none;
+  margin: 5px;
+  text-align: center;
+}
+
+.one {
+  background: crimson;
+}
+
+.two {
+  background: blue;
+}
+
+.three {
+  background: green;
+}/*# sourceMappingURL=interpolation.css.map */
