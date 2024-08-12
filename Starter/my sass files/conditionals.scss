@@ -1,0 +1,69 @@
+//  Conditionals
+
+
+// if condition {
+//     <code>
+// } else if condition{
+//     <code>
+// } else {
+//     <code>
+// }
+
+
+// IF
+
+// $value: 5;
+
+// p{
+//    @if 1 + 1 == 2{
+//     font-size: 37px;
+//    background: teal;
+//    }
+
+//    @if 10 > 3 {
+//     background: pink;
+//    }
+
+//    @if $value > 1{
+//     background: green;
+//    }
+// }
+
+
+// // ELSE IF 
+// $value: 2;
+// p{
+//     @if $value == 1 {
+//         color: blue;
+
+//     } @else if $value > 5 and $value < 10 {
+//         color: teal;
+//     } @else {
+//         color: crimson;
+//     }
+
+// }
+
+
+
+// EXAMPLES WITH MIXINS
+
+@mixin styles($value){
+    width: $value + px;
+    height: $value + px;
+
+    @if $value > 0 and $value <= 20 {
+        color: orange;
+    } @else if $value > 37 and $value <= 50{
+        color: teal;
+    }@else {
+        color: green;
+    }
+}
+
+.selector{
+    // @include styles(37);
+
+    @include styles(100);
+
+}
