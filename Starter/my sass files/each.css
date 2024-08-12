@@ -1,0 +1,28 @@
+.yellow {
+  background: yellow;
+}
+
+.orange {
+  background: orange;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.crimson {
+  background: crimson;
+}
+
+body {
+  display: flex;
+}
+
+div {
+  flex: 1 1 auto;
+  height: 100vh;
+}/*# sourceMappingURL=each.css.map */

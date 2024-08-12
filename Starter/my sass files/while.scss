@@ -1,0 +1,8 @@
+$index: 10;
+@while $index <= 50 {
+    .selector-#{$index}{
+        padding-left: 1px * $index;
+    }
+
+    $index:$index+10;
+}

@@ -1,0 +1,48 @@
+// Simple
+
+
+// $list:(10,20,30);
+
+// @each $index in (normal, bold, italic){
+//    .#{$index} {
+//     font-weight:$index ;
+//    }
+//  }
+
+// @each $index in $list {
+//     .selector {
+//      font-weight: $index ;
+//     }
+//  }
+
+
+// $list: ((normal,bold, 10px), (emphasis, italic, 37px));
+
+// @each $name, $style, $size  in $list {
+//     .#{$name}{
+//      font-weight: $style ;
+//      font-size: $size ;
+//     }
+//  }
+
+
+$colors: yellow orange green blue crimson;
+
+
+@each $color in $colors{
+
+    .#{$color}{
+        background: $color;
+    }
+}
+
+body{
+    display: flex;
+
+}
+
+div{
+    flex: 1 1 auto;
+    height: 100vh;
+
+}
