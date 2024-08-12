@@ -76,3 +76,33 @@
 
 
 // CUSTOM FUNCTIONS IN SASS
+
+
+// EXAMPLE ONE
+
+
+// $one: 100px;
+// $two: 100px;
+
+// @function add($numberOne, $numberTwo){
+//     @return $numberOne + $numberTwo;
+// }
+
+
+// section{
+//     width: add(30,50 );
+// }
+
+// EXAMPLE TWO
+
+@function randomColor(){
+
+    @return rgb(random(255),random(255),random(255));
+
+}
+
+section{
+    width: 100px;
+    height: 100px;
+    background: randomColor();
+}
