@@ -1,0 +1,104 @@
+.box-1 {
+  width: 100px;
+  background: rgb(158, 118, 119);
+  margin: 5px;
+  padding: 5px;
+}
+
+.box-2 {
+  width: 100px;
+  background: rgb(141, 162, 138);
+  margin: 10px;
+  padding: 10px;
+}
+
+.box-3 {
+  width: 100px;
+  background: rgb(1, 139, 71);
+  margin: 15px;
+  padding: 15px;
+}
+
+.box-4 {
+  width: 100px;
+  background: rgb(232, 35, 85);
+  margin: 20px;
+  padding: 20px;
+}
+
+.box-5 {
+  width: 100px;
+  background: rgb(37, 91, 112);
+  margin: 25px;
+  padding: 25px;
+}
+
+.box-6 {
+  width: 100px;
+  background: rgb(86, 72, 7);
+  margin: 30px;
+  padding: 30px;
+}
+
+.box-7 {
+  width: 100px;
+  background: rgb(9, 86, 85);
+  margin: 35px;
+  padding: 35px;
+}
+
+.box-8 {
+  width: 100px;
+  background: rgb(241, 135, 146);
+  margin: 40px;
+  padding: 40px;
+}
+
+.box-9 {
+  width: 100px;
+  background: rgb(252, 184, 83);
+  margin: 45px;
+  padding: 45px;
+}
+
+.box-10 {
+  width: 100px;
+  background: rgb(87, 12, 106);
+  margin: 50px;
+  padding: 50px;
+}
+
+.list-1 {
+  width: 100px;
+  background: #bb1133;
+  margin: 5px;
+  padding: 10px;
+}
+
+.list-2 {
+  width: 100px;
+  background: #9b0e2a;
+  margin: 10px;
+  padding: 20px;
+}
+
+.list-3 {
+  width: 100px;
+  background: #7a0b21;
+  margin: 15px;
+  padding: 30px;
+}
+
+.list-4 {
+  width: 100px;
+  background: #590818;
+  margin: 20px;
+  padding: 40px;
+}
+
+.list-5 {
+  width: 100px;
+  background: #38050f;
+  margin: 25px;
+  padding: 50px;
+}/*# sourceMappingURL=forloop.css.map */

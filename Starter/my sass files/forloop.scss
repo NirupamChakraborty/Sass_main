@@ -1,0 +1,18 @@
+@for $index from 1 through 10{
+    .box-#{$index}{
+        width: 100px;
+        background: rgb(random(255),random(255),random(255));
+        margin: 5px * $index;
+        padding: 5px * $index ;
+    }
+}
+
+
+@for $index from 1 through 5{
+    .list-#{$index}{
+        width: 100px;
+        background: darken( crimson, $index * 7% );
+        margin: 5px * $index;
+        padding: 10px * $index ;
+    }
+}
