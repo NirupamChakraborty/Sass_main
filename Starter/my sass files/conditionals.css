@@ -1,5 +1,4 @@
-.selector {
-  width: 100px;
-  height: 100px;
-  color: green;
+section {
+  background: teal;
+  height: 300;
 }/*# sourceMappingURL=conditionals.css.map */

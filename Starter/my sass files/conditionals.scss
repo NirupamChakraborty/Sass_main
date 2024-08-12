@@ -48,22 +48,60 @@
 
 // EXAMPLES WITH MIXINS
 
-@mixin styles($value){
-    width: $value + px;
-    height: $value + px;
+// @mixin styles($value){
+//     width: $value + px;
+//     height: $value + px;
 
-    @if $value > 0 and $value <= 20 {
-        color: orange;
-    } @else if $value > 37 and $value <= 50{
-        color: teal;
-    }@else {
-        color: green;
+//     @if $value > 0 and $value <= 20 {
+//         color: orange;
+//     } @else if $value > 37 and $value <= 50{
+//         color: teal;
+//     }@else {
+//         color: green;
+//     }
+// }
+
+// .selector{
+//     // @include styles(37);
+
+//     @include styles(100);
+
+// }
+
+
+// EXAMPLES WITH FUNCTIONS
+$one: 100;
+$two: 3;
+
+
+@function math($operator, $numberOne,$numberTwo){
+    @if $operator == "add" {
+        @return $numberOne + $numberTwo
     }
+
+    @if $operator == "substract"{
+        @return $numberOne - $numberTwo
+}
+@if $operator == "muliply" {
+    @return $numberOne * $numberTwo
 }
 
-.selector{
-    // @include styles(37);
+@if $operator == "divide" {
+    @return $numberOne / $numberTwo
+}
 
-    @include styles(100);
+@if $operator == "mod" {
+    @return $numberOne % $numberTwo
+}
 
+
+
+}
+
+
+section{
+    background: teal;
+    // ADD
+    // width: math("add",$one,$two);
+    height: math("muliply",$one,$two);
 }
